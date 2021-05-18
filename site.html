@@ -1,0 +1,109 @@
+<!-- Projeto Gama Academy - Luiza Labs-->
+<!-- Site com HTML, CSS e JavaScript-->
+<!-- Joseana dos Santos Soares-->
+
+<html>
+    <head>
+        <title> .: MacGyver Makeup :.</title>
+        <link rel="stylesheet" href="salvation.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+        
+        <script>
+            function myFunction(popup) {
+            var popup = document.getElementById(popup);
+            popup.classList.toggle("show");
+            }           
+        </script>
+    </head>
+
+    <body>
+
+        
+        <div id="conteudo">
+        <div id="banner">
+            <img id="bannerloja" src="banner.jpg" width="50%"/>
+        </div>
+
+        <div id="navbar">
+            <div> <a href="#servico">Categorias </a> </div>
+            <div> <a href="#quemsou"> Quem Sou</a></div>
+            <div> <a href="#contato"> Contato </a></div>
+
+        </div>
+
+
+        
+        <div id="servico">
+            <h2>Categorias</h2>
+        </div>
+
+        <div id="estilos">
+            <div class="estilo">
+            <div class="popup" onclick="myFunction('popupolhos')">
+                <span class="popuptext" id="popupolhos">R$20</span>
+                <h3>Olhos</h3>
+                <img class="icone" src="olho.png" width="8%"/>
+                <p>Delineado, esfumado, gráfico, aplicação de cílios </p>
+                </div>
+            </div>
+
+            <div class="estilo">
+                <div class="popup" onclick="myFunction('popupcompleta')">
+                    <span class="popuptext" id="popupcompleta">R$30</span>
+                <h3>Completa</h3>
+                <img class="icone" src="face.png" width="8%"/>
+                <p>Preparação da pele, contorno, ilumicação, olhos, boca</p>
+                </div>
+            </div>
+
+            <div class="estilo">
+                <div class="popup" onclick="myFunction('popupartistica')">
+                    <span class="popuptext" id="popupartistica">R$50</span>
+                <h3>Artística</h3>
+                <img class="icone"src="completa.png" width="8%"/>
+                <p>Carnaval, Halloween, para teatro. Me desafie!</p>
+                </div>
+            </div>
+        </div>
+        
+    
+        <div id="quemsou">
+            <h2>Quem Sou</h2>
+        </div>
+
+        <div id="Quem">
+
+            <div class="quem">
+                <img class="foto perfil" src="perfil.png" width="100%"/>
+            </div>
+        
+            <div class="quem">
+                <p>Bacharel em Física, encantada pelo Cosmos, geometria e pelas cores da luz passando por um prisma.</p>
+                <p>Comecei a me maquiar como uma forma de mostrar minha identidade, virou hobbie e profissão.</p>
+                <p>Durante a pandemia passei a ensinar pessoas a se maquiarem como forma de melhorar a autoestima e aumentar a independência de profissionais.</p>
+                <p>Acompanhe meu trabalho pelo Instagram!</p>
+            </div>
+        </div>
+
+
+        <div id="contato">
+            <h2>Contato</h2>
+        </div>
+
+        <div id="oi">
+
+            <div class="oi">
+            <div> <a href="https://api.whatsapp.com/send/?phone=5512991248736&text&app_absent=0"> Whatsapp</a> <img src="wpp.jpg" width="8%"/> 
+            </div>
+
+            <div class="oi">
+            <div> <a href="https://www.instagram.com/macgyver.makeup/"> Instagram </a> <img src="insta.jpg" width="10%"/>
+            </div>
+
+        </div>
+
+    </body>
+</html>
